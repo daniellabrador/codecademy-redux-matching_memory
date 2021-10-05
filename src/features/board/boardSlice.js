@@ -103,3 +103,7 @@ export const selectBoard = state => state.board.map(card => {
 export const selectVisibleIDs = state => state.board
   .filter(card => card.visible)
   .map(card => card.id)
+
+export const selectMatchedIDs = state => state.board
+  .filter(card => card.matched)
+  .map(card => card.id)
