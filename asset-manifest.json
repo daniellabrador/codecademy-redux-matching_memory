@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codecademy-redux-matching_memory/static/css/main.ae03e7c9.chunk.css",
+    "main.js": "/codecademy-redux-matching_memory/static/js/main.48a51208.chunk.js",
+    "main.js.map": "/codecademy-redux-matching_memory/static/js/main.48a51208.chunk.js.map",
+    "runtime-main.js": "/codecademy-redux-matching_memory/static/js/runtime-main.b634d61b.js",
+    "runtime-main.js.map": "/codecademy-redux-matching_memory/static/js/runtime-main.b634d61b.js.map",
+    "static/js/2.24a3ecfb.chunk.js": "/codecademy-redux-matching_memory/static/js/2.24a3ecfb.chunk.js",
+    "static/js/2.24a3ecfb.chunk.js.map": "/codecademy-redux-matching_memory/static/js/2.24a3ecfb.chunk.js.map",
+    "static/js/3.929119a0.chunk.js": "/codecademy-redux-matching_memory/static/js/3.929119a0.chunk.js",
+    "static/js/3.929119a0.chunk.js.map": "/codecademy-redux-matching_memory/static/js/3.929119a0.chunk.js.map",
+    "index.html": "/codecademy-redux-matching_memory/index.html",
+    "static/css/main.ae03e7c9.chunk.css.map": "/codecademy-redux-matching_memory/static/css/main.ae03e7c9.chunk.css.map",
+    "static/js/2.24a3ecfb.chunk.js.LICENSE.txt": "/codecademy-redux-matching_memory/static/js/2.24a3ecfb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b634d61b.js",
+    "static/js/2.24a3ecfb.chunk.js",
+    "static/css/main.ae03e7c9.chunk.css",
+    "static/js/main.48a51208.chunk.js"
+  ]
+}

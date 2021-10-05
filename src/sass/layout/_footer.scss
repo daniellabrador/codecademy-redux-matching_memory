@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  min-height: 3.375em;
+  background-color: #333;
+}
+
+@media only screen and (min-width: 550px) {
+  footer {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+}
+
+footer .copyright {
+  margin: 0;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 1.5em 1.5em 1.5em 2em;
+  color: white;
+}
+
+footer .copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .copyright a:visited {
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 550px) {
+  footer .social {
+    display: flex;
+    display: -webkit-flex;
+  }
+}

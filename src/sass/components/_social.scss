@@ -1,0 +1,26 @@
+.social {
+  display: none;
+  padding: 1rem 2rem 1rem 1rem;
+  align-items: center;
+  gap: .5em;
+}
+
+@media only screen and (min-width: 700px) {
+  .social {
+    display: flex;
+    display: -webkit-flex;
+  }
+}
+
+.social i {
+  color: white;
+}
+
+.social i:hover {
+  opacity: 0.75;
+  transition: opacity .25s;
+}
+
+.social i:not(:hover) {
+  transition: opacity .25s;
+}
