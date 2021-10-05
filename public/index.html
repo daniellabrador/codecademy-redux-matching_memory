@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Title | React Project</title>
+  <meta name="author" content="Daniel Labrador">
+  <meta name="description" content="Maximum of 160 characters only.">
+  <!-- Maximum of 160 characters only. -->
+  <!-- JSX -->
+  <!-- ~path -->
+
+  <link rel="stylesheet" type="text/css" href="./src/css/index.css">
+  <link rel="shortcut icon" href="./src/img/logo/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="react,react app,hire,web development,web developer,web designer,web design,UI,UX">
+  <meta name="theme-color" content="#000000"/>
+  <!--<meta http-equiv="refresh" content="30">-->
+
+  <script src="https://kit.fontawesome.com/ba3abb2535.js" crossorigin="anonymous"></script>
+  <script src="./src/script/jquery.min.js" defer></script>
+
+  <script src="./src/script/boilerplate.js" defer></script>
+  <script src="./src/script/index.js" defer></script>
+</head>
+<body>
+
+  <!--------------  HEADER  ----------------->
+  <header>
+    <!-- Add .clear-nav-bar if .nav-bar should be clear  -->
+    <div class="nav-bar" id="nav-bar">
+
+      <div class="mobile-menu nav-bar-element" id="mobile-menu-open">
+        <span class="noselect">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><style>path {fill: #fff}</style><g fill="var(--color-default)"><path d="M8 14h7a1 1 0 000-2H8a1 1 0 000 2zM1 4h14a1 1 0 000-2H1a1 1 0 000 2zM1 9h14a1 1 0 000-2H1a1 1 0 000 2z"></path></g></svg>
+        </span>
+      </div>
+
+      <div class="main-navigation-items">
+        <div id="main-logo-container" class="main-logo-container nav-bar-element">
+          <span class="main-logo-text noselect">Daniel Labrador</span>
+          <a href="http://daniellabrador.me" class = "main-logo-link">
+            <img id="main-logo" src="./src/img/logo/SVG/logo-light.svg" alt="Brand logo" class="main-logo mobile">
+          </a>
+        </div>
+
+        <nav class="desktop-nav">
+          <ul>
+            <a href="https://daniellabrador.me/#about">
+              <li>About</li>
+            </a>
+            <a href="https://daniellabrador.me/#skills">
+              <li>Skills</li>
+            </a>
+            <a href="https://daniellabrador.me/#projects">
+              <li>Projects</li>
+            </a>
+            <a href="https://daniellabrador.me/#services">
+              <li>Services</li>
+            </a>
+            <a href="https://daniellabrador.me/#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="social nav-bar-element">
+
+        <a href="https://instagram.com/daniellabrador_">
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/daniellabrador00/">
+          <div class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </a>
+
+        <a href="https://github.com/daniellabrador">
+          <div class="social-icon">
+            <i class="fab fa-github"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- To prevent reference error, I have to create this class -->
+    <div class="clear-nav-bar" style="display:none"></div>
+
+    <nav class="mobile-nav" id="mobile-nav">
+      <div class="social">
+
+        <a href="https://instagram.com/daniellabrador_">
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/daniellabrador00/">
+          <div class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </a>
+
+        <a href="https://github.com/daniellabrador">
+          <div class="social-icon">
+            <i class="fab fa-github"></i>
+          </div>
+        </a>
+      </div>
+      <hr>
+      <ul>
+        <a href="https://daniellabrador.me/#about">
+          <li>About</li>
+        </a>
+        <a href="https://daniellabrador.me/#skills">
+          <li>Skills</li>
+        </a>
+        <a href="https://daniellabrador.me/#projects">
+          <li>Projects</li>
+        </a>
+        <a href="https://daniellabrador.me/#services">
+          <li>Services</li>
+        </a>
+        <a href="https://daniellabrador.me/#contact">
+          <li>Contact</li>
+        </a>
+      </ul>
+      <div class="mobile-menu-close"><span class="noselect">Close</span><div id='mobile-menu-close'></div></div>
+    </nav>
+
+  </header>
+
+
+
+  <!---------------  MAIN  ------------------>
+  <main><section class="col-grid">
+    <div class="description col-span-12">
+      <h1>Project Title</h1>
+      <p>Maximum of 160 characters only. This app is a <a href="https://www.codecademy.com/learn/react-101">Codecademy</a> project intended to enhance my skills on the use of JSX. See <a href="https://github.com/daniellabrador/codecademy-react-~path/">source code</a>.</p>
+    </div>
+    
+    <div id="app-window" class="col-span-12">
+
+      <div id="app-header-design"><div></div><div></div><div></div><p class="noselect">Project Title</p></div>
+    
+      
+      <div id="app-container">
+        <div id="app">
+          <!-- React App -->
+        </div>
+      </div>
+
+    </div>
+  </section></main>
+
+  <!--------------  FOOTER  ----------------->
+  <footer>
+    <p class="copyright">&copy; <a href="https://daniellabrador.me">Thony Danielle Labrador</a> 2021. All Rights Reserved.</p>
+    <div class="social">
+
+      <a href="https://instagram.com/daniellabrador_">
+        <div class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/daniellabrador00/">
+        <div class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </a>
+
+      <a href="https://github.com/daniellabrador">
+        <div class="social-icon">
+          <i class="fab fa-github"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+</body>
