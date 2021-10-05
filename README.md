@@ -1,6 +1,6 @@
 # **Matching Memory**
 
-Matching Memory does something. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
+Matching Memory is a card-matching game powered by React and Redux. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of React Redux library.
 
 ## Table of Contents
 
@@ -50,12 +50,12 @@ To complete this project you will add a `<Provider />` component, implement sele
 ## Technologies
 
 - React
-- JavaScript
+- Redux
 
 ## Setup
 
-To view the final output, click [here](https://daniellabrador.me/codecademy-react-)
+To view the final output, click [here](https://daniellabrador.me/codecademy-redux-matching_memory)
 
 ## Sources
 
-The techniques utilized was based on the lessons taught in [Codecademy's Learn React Course](https://www.codecademy.com/learn/react-101). The challenge is also provided by Codecademy.
+The techniques utilized was based on the lessons taught in [Codecademy's Learn Redux Course](https://www.codecademy.com/learn/learn-redux). The challenge is also provided by Codecademy.
